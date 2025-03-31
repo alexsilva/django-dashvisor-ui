@@ -1,7 +1,6 @@
-from cached_property import cached_property
 from django.conf import settings
 from django.utils.module_loading import import_string
-
+from django.utils.functional import cached_property
 
 class Backend:
     def __init__(self):
